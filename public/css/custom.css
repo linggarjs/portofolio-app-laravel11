@@ -1,0 +1,79 @@
+.header-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.header-section .rounded-circle {
+    border: 2px solid #6c757d;
+}
+
+.header-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.header-section p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+./* Optional custom styling */
+.header-section .skill-icons img {
+    display: block;
+    margin: 0 auto;
+}
+
+.header-section .skill-icons p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.header-section .skill-icons img:hover {
+    transform: scale(1.2);
+}
+
+.header-section .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.header-section .btn-primary:hover {
+    background-color: #0056b3;
+}
+/* pagination Styling */
+
+.pagination {
+    font-size: 0.9rem; /* Slightly smaller font for pagination */
+}
+
+.pagination .page-link {
+    padding: 0.5rem 0.75rem;
+    color: #007bff;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+}
+
+/* Footer Styling */
+footer .social-icons a img {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+footer .social-icons a:hover img {
+    filter: none;
+}
+
+footer .copyright-text p {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
